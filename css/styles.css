@@ -122,7 +122,7 @@ a:hover{ /*pseudoclass*/
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color: #EAF6F6;
+    border-color: gray;
     border-width: 6px;
     width: 4%;
     margin: 100px auto;
