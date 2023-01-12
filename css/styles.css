@@ -1,0 +1,200 @@
+body{
+    background-color: #F7F5EB;
+    margin: 0;     /*All four sides will be overwritten and get set to zero */
+    text-align: center;
+    /*font*/
+    font-family: 'Merriweather', serif; /*verdana font of sans-serif family, By default it is Arial font for sans-serif and Times font for Serif family.*/
+    /*. The second, third and fourth fonts are backups, in case the first one is not found.*/
+}
+
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top:100px;
+}
+
+h1{
+    /*To make font-size dynamic we can use either % or unit em*/
+    /* font-size: 562.5%;  */
+    line-height: 2; /*It's preferred to write line-height without a unit. Default is 1*/
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin : 50px auto 0 auto; /*So that the div is directly touched to the top.*/
+    font-family: 'Sacramento', cursive;
+    
+    /* width:10%;
+     margin: 0 auto; /*top-bottom left-right */
+     /* 
+     OR
+     margin: auto;             top and bottom: 0 margin     
+                               Box is horizontally centered 
+     OR
+     margin: 0 auto 0 auto;
+     */ 
+     
+
+    }
+
+    h2{
+        color: #66BFBF;
+        font-size:2.5rem; /*40 px in rem is 2.5rem*/
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px;
+    }
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none; /*To remove the default underline in anchor tag*/
+}
+
+a:hover{ /*pseudoclass*/
+    color: #EAF6F6;
+} 
+
+.middle-container{
+    padding: 100px 0;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:250px;
+    bottom:300px;
+}
+
+.top-cloud{
+    position:absolute;
+    right: 300px; /*This means a right margin of 500 px will be given relative to the top-container because that is the parent class*/
+    top: 40px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto; /*100 px margin on to and bottom and auto in left and right to keep it in center*/
+    text-align: left;
+}
+
+.trade-img{
+    width: 25%;
+    float:left;
+    margin-right:30px;
+}
+
+.mind-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size:0.75rem; /*1rem = 16px*/
+    padding:20px 0;
+}
+
+
+
+
+
+
+/*To understand clear property Lecture 58 */
+/* 
+.trade-skill-description{
+    clear: left; 
+}
+
+.mind-skill-description{
+    clear:right;
+} 
+
+*/
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.profile-pic{
+    height: 250px;
+}
+
+.intro{
+    width: 30%;
+    margin:auto;
+    text-align: center;
+}
+
+.initial-description{
+    font-weight: normal;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px; /*auto for left-right*/
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+}
+
+
+p{
+    line-height: 2; /*Double the line height by default it is 1 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
